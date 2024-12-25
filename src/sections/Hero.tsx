@@ -87,7 +87,7 @@ export default function Hero() {
                     ref={rightDesignScope}
                     initial={{ opacity: 0, y: 100, x: 100 }}
                     drag
-                    className="absolute hidden lg:block -right-64 -top-16 hidden  lg:block"
+                    className="absolute hidden lg:block -right-64 -top-16 "
                 >
                     <Image
                         src={designExample2Image}
